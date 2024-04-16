@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Todo</title>
+</head>
+<body>
+  
+  <div class="page-container">
+    
+    <header>
+
+    </header>
+    
+    <main>
+      <div class="widget-container">
+        <div class="todo-controls">
+          <label for="todoText">Enter a todo</label>
+          <input type="text" id="editTodo" name="todo-text" />
+          <!-- Look up how listeners work -->
+          <button id="addTodo" onclick="addTodo" disabled>Add</button>
+        </div>
+        <ul class="todo-list" id="todoList">
+        </ul>
+      </div>
+    </main>
+
+  </div>
+
+  <!-- TODO SCRIPT -->
+  <script src="todo.js"></script>
+
+</body>
+</html>

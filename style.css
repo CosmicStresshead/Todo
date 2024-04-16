@@ -1,0 +1,56 @@
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100dvh;
+  margin: 0;
+  padding: 0;
+}
+
+.page-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-items: stretch;
+  align-items: center;
+}
+
+.widget-container {
+  margin: 0.5rem;
+  padding: 0.25rem;
+  display: flex;
+  flex-direction:column;
+}
+
+.todo-controls {
+  margin: 0.5rem;
+  padding: 0.25rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 0.25rem;
+  padding: 0.25rem;
+}
+
+.todo-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  /* remove list-item styling */
+  list-style: none;
+  /* set styling */
+  padding: 0.5rem;
+  margin: 0.25rem;
+  background-color: #fc0;
+  width: 100%;
+  font-weight: 700;
+}
+
+.debug {
+  border: 1px solid purple;
+}
